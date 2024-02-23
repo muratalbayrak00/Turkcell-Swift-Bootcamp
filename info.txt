@@ -1,7 +1,7 @@
 Ad Soyad: Murat Albayrak 
-Okul: Marmara Universitesi 
+Okul: Marmara Universitesi 3.Sinif
 Yas: 21
 Swift bilgisi: yok 
 Bildigi diger diller: java, python 
 e-mail: muratalbayrak236@gmail.com
-linkedin: muratalbayrak 
+linkedin: https://www.linkedin.com/in/murat-albayrak-119aa91a6/
