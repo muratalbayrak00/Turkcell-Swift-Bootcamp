@@ -1,0 +1,7 @@
+Ad Soyad: Murat Albayrak 
+Okul: Marmara Universitesi 
+Yas: 21
+Swift bilgisi: yok 
+Bildigi diger diller: java, python 
+e-mail: muratalbayrak236@gmail.com
+
