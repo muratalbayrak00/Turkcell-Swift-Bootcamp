@@ -1,16 +1,29 @@
 import UIKit
 
 // Question 1
-let str = "aaba kouq bux"
-
-for letter in str{
-    
-    
+func myFunc(str: String, repeatCount: Int) {
+    var letterList = [Character: Int]()
+    for char in str {
+        if char.isLetter {
+            letterList[char, default: 0] += 1
+        }
+    }
+    var newString = ""
+    for char in str {
+        if let count = letterList[char], count < repeatCount {
+            newString.append(char)
+        }
+    }
+    print(newString)
 }
+
+myFunc(str: "aaba kouq bux", repeatCount: 2)
+myFunc(str: "aaba kouq bux", repeatCount: 3)
+myFunc(str: "aaba kouq bux", repeatCount: 4)
+
 
 
 // Question 2
-
 func wordCount(sentence: String) {
     var words = sentence.split(separator: " ")
     
@@ -28,6 +41,9 @@ var sentence = "Merhaba nasılsınız iyiyim siz nasılsınız bende iyiyim"
 
 wordCount(sentence: sentence)
 
+
+
+
 // Euler project 1
 
 var sum = 0
@@ -39,24 +55,37 @@ for i in 1...999{
 print(sum)
 
 
+
+
+
 // Euler project 2
 
 var evenSum=0
 var x=1
 var y=2
 
-for i in 1...4000000{
-    if x % 2 == 0{
-        sum += x
+while x <= 4000000 {
+    if x % 2 == 0 {
+        evenSum += x
     }
-    var nextTerm = x+y
+    let nextTerm = x + y
     x = y
     y = nextTerm
-
 }
-print(sum)
+print(evenSum)
 
-// Euler project 3
+// Euler project 3 ???
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
