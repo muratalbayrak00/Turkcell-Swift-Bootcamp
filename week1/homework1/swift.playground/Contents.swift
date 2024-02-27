@@ -60,9 +60,9 @@ print(sum)
 
 // Euler project 2
 
-var evenSum=0
-var x=1
-var y=2
+var evenSum = 0
+var x = 1
+var y = 2
 
 while x <= 4000000 {
     if x % 2 == 0 {
@@ -76,7 +76,7 @@ print(evenSum)
 
 // Euler project 3 ???
 
-
+// Asal sayiyi nasil daha hizli bulabiliriz. Bunu arastir
 
 
 
