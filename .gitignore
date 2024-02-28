@@ -1,0 +1,19 @@
+# Ignore Xcode build files
+build/
+*.xcodeproj/
+*.xcworkspace/
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+
+# Ignore Swift Package Manager build directory
+.build/
+
+# Ignore CocoaPods
+Podfile.lock
+Pods/
+
+# Ignore Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# Ignore any other files or directories you want to exclude
