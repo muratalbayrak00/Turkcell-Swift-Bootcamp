@@ -1,4 +1,4 @@
-import Foundation
+
 // ------------------------   Week2 Homework 2 -----------------------------
 
 /* => Project Euler 4
@@ -9,7 +9,7 @@ import Foundation
  Find the largest palindrome made from the product of two n-digit numbers.
  
  */
-
+import Foundation
 
 var n = 2
 var nDigit = Int(pow(10, Double(n))-1)
