@@ -1,9 +1,4 @@
-//
-//  NotificationListenerVC.swift
-//  Lesson 10
-//
-//  Created by Kerem Demir on 8.03.2024.
-//
+
 
 import UIKit
 
@@ -34,4 +29,6 @@ class NotificationListenerVC: UIViewController {
 // HOMEWORK : Resim disinda sender ekranindan kullanicinin girdigi degeri ilk ekrandaki label'a tasiyiniz.
 // Frame ve bound arasindaki fark nedir aciklayiniz ?
 // static keyword ne zaman ve neden kullanilir ?
-// Bir tableview veya collectionview kullanarak listeye eleman ekleyebileceginiz bir uygulama yapiniz. Sag ust kosede konacak bir + butonu ile acilacak alertview icindeki textfield ile alinan veriyi tableview veya colelctionview'e ekleyiniz.
+// Bir tableview veya collectionview kullanarak listeye eleman ekleyebileceginiz bir uygulama yapiniz. 
+// Sag ust kosede konacak bir + butonu ile acilacak alertview icindeki textfield ile alinan veriyi tableview
+// veya colelctionview'e ekleyiniz.

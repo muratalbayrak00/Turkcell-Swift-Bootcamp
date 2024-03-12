@@ -1,3 +1,9 @@
+//
+//  AppDelegate.swift
+//  Week3Homework1
+//
+//  Created by murat albayrak on 12.03.2024.
+//
 
 import UIKit
 

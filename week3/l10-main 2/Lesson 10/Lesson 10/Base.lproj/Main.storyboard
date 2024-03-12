@@ -453,8 +453,8 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="C1X-SR-bmF" id="vUx-xQ-tG8"/>
-                                    <outlet property="delegate" destination="C1X-SR-bmF" id="MGs-X1-9ER"/>
+                                    <outlet property="dataSource" destination="C1X-SR-bmF" id="Eet-jF-eFU"/>
+                                    <outlet property="delegate" destination="C1X-SR-bmF" id="bt6-Iv-rWt"/>
                                 </connections>
                             </tableView>
                         </subviews>
