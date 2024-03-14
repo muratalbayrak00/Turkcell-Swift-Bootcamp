@@ -1,4 +1,9 @@
-
+//
+//  SenderViewController.swift
+//  Lesson 10
+//
+//  Created by Kerem Demir on 7.03.2024.
+//
 
 import UIKit
 
