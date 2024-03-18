@@ -11,7 +11,7 @@ class Passenger {
     var name: String = "isimsiz"
     var surname: String = "isimsiz"
     var id: Int = 0
-    
+  
     init(name: String, surname: String, id: Int) {
         self.name = name
         self.surname = surname

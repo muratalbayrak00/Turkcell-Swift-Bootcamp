@@ -11,6 +11,9 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
     @IBOutlet var collectionView: UICollectionView!
     // Koltukların sayısı
     let numberOfSeats = 45
+    var nonSelectedSeats = [String]()
+    var selectedSeats = [String]()
+    
     let seatsPerRow = 5
     let minimumInteritemSpacing: CGFloat = 5 // Minimum yatay boşluk
     let minimumLineSpacing: CGFloat = 5 // Minimum dikey boşluk
@@ -39,6 +42,7 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
         
         // Hücre içeriğini ayarla, örneğin koltuk numarasını atayabilirsiniz
         cell.seatCellLabel.text = "\(indexPath.item + 1)"
+        nonSelectedSeats.append("\(indexPath.item)")
        
         
         
@@ -55,14 +59,32 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
         guard let label = sender.view as? UILabel else { return }
        // label.backgroundColor = .white
         // Arka plan rengi beyaz ise yeşil yap, aksi takdirde beyaz yap
-        if label.backgroundColor == nil {
-            label.backgroundColor = .white
-        }
-        if label.backgroundColor == .white {
-            label.backgroundColor = .green
+        if selectedSeats.count < 5 || selectedSeats.contains(label.text ?? ""){
+            if label.backgroundColor == nil {
+                label.backgroundColor = .white
+            }
+            if label.backgroundColor == .white {
+                label.backgroundColor = .green
+                selectedSeats.append(label.text ?? "")
+                if let index = nonSelectedSeats.firstIndex(where: { $0 == label.text }) {
+                    // Bulunan indeksi diziden kaldır
+                    nonSelectedSeats.remove(at: index)
+                }
+            } else {
+                label.backgroundColor = .white
+                if let index = selectedSeats.firstIndex(where: { $0 == label.text }) {
+                    // Bulunan indeksi diziden kaldır
+                    selectedSeats.remove(at: index)
+                }
+                nonSelectedSeats.append(label.text ?? "")
+            }
+            
         } else {
-            label.backgroundColor = .white
+            print("koltuk secilemedi")
         }
+        
+        
+        
        
         
     }

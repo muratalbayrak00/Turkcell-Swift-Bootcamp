@@ -11,5 +11,7 @@ import UIKit
 class SeatCell: UICollectionViewCell {
     
     @IBOutlet weak var seatCellLabel: UILabel!
+    
+    
 }
 

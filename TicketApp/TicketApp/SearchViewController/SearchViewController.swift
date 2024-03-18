@@ -12,6 +12,7 @@ class SearchViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     let searchController = UISearchController(searchResultsController: nil)
     
+    var selectedCityFrom: CityModel?
     
     var cities: [CityModel] = [
         CityModel(cityName: "İstanbul"),
@@ -56,6 +57,20 @@ class SearchViewController: UIViewController {
         
         tableView.reloadData()
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if isFiltering {
+            selectedCityFrom = filteredUsers[indexPath.row]
+        } else {
+            selectedCityFrom = cities[indexPath.row]
+        }
+        
+        NotificationCenter.default.post(name: .selectedCityNotificationStart, object: selectedCityFrom)
+
+        // Burada ekranı kapatmak için uygun bir yöntem kullanabilirsiniz
+        // Örneğin, bir navigation controller kullanıyorsanız:
+        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
+    }
     
     private func configureSearchController() {
         searchController.searchBar.placeholder = "Search User"
@@ -65,6 +80,9 @@ class SearchViewController: UIViewController {
         // definesPresentationContext = true // ODEV NE ISE YARIYOR.
     }
     
+}
+extension Notification.Name {
+    static let selectedCityNotificationStart = Notification.Name("SelectedCityNotificationStart")
 }
 
 extension SearchViewController: UITableViewDelegate, UITableViewDataSource {

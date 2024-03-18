@@ -10,6 +10,8 @@ import Foundation
 
 class Ticket {
     
+   
+    
     var passenger: Passenger
     var date: Date
     var time: Time
@@ -24,8 +26,11 @@ class Ticket {
         self.numberOfSeat = numberOfSeat
     }
     
+
+    
+ 
     func compare() {
-        
+    
     }
     
     func reserveSeat() {
