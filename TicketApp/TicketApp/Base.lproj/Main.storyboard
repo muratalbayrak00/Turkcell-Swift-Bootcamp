@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YAJ-yY-sPn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X37-B2-PU2">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -8,22 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Şu-Bilet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FTy-dK-EB3">
-                                <rect key="frame" x="129.33333333333337" y="75" width="134.66666666666663" height="46.666666666666657"/>
+                                <rect key="frame" x="129.33333333333337" y="119.00000000000001" width="134.66666666666663" height="46.666666666666671"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W83-QL-O5k">
-                                <rect key="frame" x="161" y="181.66666666666666" width="71" height="21"/>
+                                <rect key="frame" x="161" y="225.66666666666666" width="71" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -56,16 +56,20 @@
                             <constraint firstItem="W83-QL-O5k" firstAttribute="top" secondItem="FTy-dK-EB3" secondAttribute="bottom" constant="60" id="kz9-ce-JLa"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="gDc-gF-ovV"/>
+                    <connections>
+                        <outlet property="buttonNextPage" destination="ncP-P3-AwT" id="IYf-mQ-7mS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="5xA-P0-9fa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="127.48091603053435" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="1054.1984732824426" y="-27.464788732394368"/>
         </scene>
         <!--Date Controller-->
         <scene sceneID="5Ut-sq-TJD">
             <objects>
-                <viewController id="llm-rh-vcW" customClass="DateController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DateController" id="llm-rh-vcW" customClass="DateController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xWe-87-8Vc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ohE-uE-8PL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927.48091603053433" y="-27.464788732394368"/>
+            <point key="canvasLocation" x="2780.9160305343512" y="-27.464788732394368"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="oPf-rA-8Ir">
@@ -183,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Ua-kD-9bD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2634.3511450381679" y="-413.38028169014086"/>
+            <point key="canvasLocation" x="4487.7862595419847" y="-413.38028169014086"/>
         </scene>
         <!--Seat Design-->
         <scene sceneID="Xf0-Pm-sEG">
@@ -208,6 +212,9 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Continue"/>
+                                    <connections>
+                                        <segue destination="YAJ-yY-sPn" kind="show" id="opF-sE-nPn"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -225,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ic-vU-Tz7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3492" y="-27"/>
+            <point key="canvasLocation" x="5344.2748091603053" y="-27.464788732394368"/>
         </scene>
         <!--Search View Controller Destination-->
         <scene sceneID="G3H-nx-vDc">
@@ -256,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r4m-TP-Deh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2634.3511450381679" y="405.63380281690144"/>
+            <point key="canvasLocation" x="4487.7862595419847" y="405.63380281690144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pP1-oP-O3D">
@@ -275,7 +282,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KvU-8U-tSs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1707.6335877862596" y="-413.38028169014086"/>
+            <point key="canvasLocation" x="3561.0687022900761" y="-413.38028169014086"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="y9q-ZQ-0WG">
@@ -294,18 +301,18 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TnS-cv-87y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1707.6335877862596" y="405.63380281690144"/>
+            <point key="canvasLocation" x="3561.0687022900761" y="405.63380281690144"/>
         </scene>
         <!--Passenger Controller-->
         <scene sceneID="QIc-bG-5FI">
             <objects>
                 <viewController id="YAJ-yY-sPn" customClass="PassengerController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SbJ-Wc-CTi">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMs-gq-Lug">
-                                <rect key="frame" x="64" y="159" width="260" height="34"/>
+                                <rect key="frame" x="64" y="100" width="260" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="i9m-Qm-5mK"/>
                                 </constraints>
@@ -313,7 +320,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OCR-YI-SVj">
-                                <rect key="frame" x="64" y="225" width="260" height="34"/>
+                                <rect key="frame" x="64" y="166" width="260" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="isc-Py-qqq"/>
                                 </constraints>
@@ -321,7 +328,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lag-aN-2S2">
-                                <rect key="frame" x="158" y="408.66666666666669" width="77" height="35"/>
+                                <rect key="frame" x="158" y="403.66666666666669" width="77" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Devam"/>
                                 <connections>
@@ -341,6 +348,7 @@
                             <constraint firstItem="UMs-gq-Lug" firstAttribute="top" secondItem="VNK-5E-HeZ" secondAttribute="top" constant="100" id="igc-z0-vdV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="l39-yN-mUZ"/>
                     <connections>
                         <outlet property="passengerName" destination="UMs-gq-Lug" id="hgE-FV-Bvc"/>
                         <outlet property="passengerSurname" destination="OCR-YI-SVj" id="jbR-Zh-2s8"/>
@@ -348,7 +356,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jII-w6-lyI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4238.9312977099235" y="-24.647887323943664"/>
+            <point key="canvasLocation" x="6092.3664122137407" y="-24.647887323943664"/>
         </scene>
         <!--Details Page-->
         <scene sceneID="uw1-Vr-hDw">
@@ -411,7 +419,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pql-WS-JXW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4975" y="-27"/>
+            <point key="canvasLocation" x="6828.2442748091598" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GKX-Uz-IPm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X37-B2-PU2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pqi-61-Qw5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6PE-GP-fVY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j0X-TR-jcz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.48091603053435" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
