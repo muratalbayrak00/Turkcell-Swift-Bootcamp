@@ -12,42 +12,59 @@ class PassengerController: UIViewController {
     
     @IBOutlet weak var passengerName: UITextField!
     @IBOutlet weak var passengerSurname: UITextField!
+
+    @IBOutlet weak var passengerId: UITextField!
     
-    
-    //    @IBAction func updetePassengerInfo(_ sender: UIButton) {
-//        updatePassengerInfo()
-//    
-//
-//    }
-    var passenger : Passenger?
-    
+
+    var passenger: Passenger?
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func continueButtonTapped(_ sender: UIButton) {
-        updatePassengerInfo()
-    }
-    
-    func updatePassengerInfo() {
-        guard let name = passengerName.text, !name.isEmpty,
-              let surname = passengerSurname.text, !surname.isEmpty else {
+        guard let name = passengerName.text, !name.isEmpty else {
+            // Kullanıcı adı girilmedi, hata mesajı gösterilebilir.
             return
         }
-        
-        passenger = Passenger(name: name, surname: surname, id: 0)
-        performSegue(withIdentifier: "showDetailsSegue", sender: self)
+            
+        guard let surname = passengerSurname.text, !surname.isEmpty else {
+            // Kullanıcı soyadı girilmedi, hata mesajı gösterilebilir.
+            return
+        }
+                
+        guard let idText = passengerId.text, let id = Int(idText) else {
+            // Geçersiz kimlik numarası, hata mesajı gösterilebilir.
+            return
+        }
+                
+        // Yukarıdaki koşulları geçtikten sonra Passenger sınıfından bir örnek oluşturabiliriz.
+        passenger = Passenger(name: name, surname: surname, id: id)
+                
+        // Artık passenger örneği oluşturuldu, istediğiniz işlemleri yapabilirsiniz.
+        // Örneğin, print fonksiyonunu çağırabiliriz:
+       
+        passenger?.print()
+      //  updatePassengerInfo()
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showDetailsSegue" {
-            if let destinationVC = segue.destination as? DetailsPage {
-                destinationVC.passenger = self.passenger
-            }
-        }
-    }
+//    func updatePassengerInfo() {
+//        guard let name = passengerName.text, !name.isEmpty,
+//              let surname = passengerSurname.text, !surname.isEmpty else {
+//            return
+//        }
+//        
+//        passenger = Passenger(name: name, surname: surname, id: 0)
+//        performSegue(withIdentifier: "showDetailsSegue", sender: self)
+//    }
+//    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "showDetailsSegue" {
+//            if let destinationVC = segue.destination as? DetailsPage {
+//                destinationVC.passenger = self.passenger
+//            }
+//        }
+//    }
     
 
     

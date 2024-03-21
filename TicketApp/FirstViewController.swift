@@ -20,7 +20,7 @@ class FirstViewController: UIViewController {
     @objc func goToSecondPage() {
             // İkinci sayfayı storyboard'dan al
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let secondVC = storyboard.instantiateViewController(withIdentifier: "DateController") as! DateController
+            let secondVC = storyboard.instantiateViewController(withIdentifier: "PassengerController") as! PassengerController
             
             // Geçiş işlemini gerçekleştir
             navigationController?.pushViewController(secondVC, animated: true)

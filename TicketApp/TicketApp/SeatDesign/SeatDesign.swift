@@ -18,6 +18,7 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
     let minimumInteritemSpacing: CGFloat = 5 // Minimum yatay boşluk
     let minimumLineSpacing: CGFloat = 5 // Minimum dikey boşluk
         
+    var ticket: Ticket?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,8 +67,15 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
             if label.backgroundColor == .white {
                 label.backgroundColor = .green
                 selectedSeats.append(label.text ?? "")
+                if let seatNumberString = label.text, let seatNumber = Int(seatNumberString) {
+                    ticket?.addSeatNumber(seatNumber)
+                    print("seatdesign ticketin seats arrayine elaman eklendi. \(ticket?.seats[0] ?? 0)")
+                    // Diğer işlemler
+                }
                 if let index = nonSelectedSeats.firstIndex(where: { $0 == label.text }) {
                     // Bulunan indeksi diziden kaldır
+                   
+
                     nonSelectedSeats.remove(at: index)
                 }
             } else {
@@ -75,6 +83,11 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
                 if let index = selectedSeats.firstIndex(where: { $0 == label.text }) {
                     // Bulunan indeksi diziden kaldır
                     selectedSeats.remove(at: index)
+                    if let seatNumberString = label.text, let seatNumber = Int(seatNumberString) {
+                        print("seatdesign ticketin seats arrayine elaman kaldirildi.\(ticket?.seats[0])")
+                        ticket?.removeSeatNumber(seatNumber)
+                        // Diğer işlemler
+                    }
                 }
                 nonSelectedSeats.append(label.text ?? "")
             }

@@ -19,6 +19,7 @@ class Passenger {
     }
     
     func print(){
-        Swift.print("passenger print statetment")
+        Swift.print("\(self.name) \(self.surname) \(self.id)")
+        
     }
 }

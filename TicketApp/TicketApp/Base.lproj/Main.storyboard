@@ -71,17 +71,17 @@
             <objects>
                 <viewController storyboardIdentifier="DateController" id="llm-rh-vcW" customClass="DateController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xWe-87-8Vc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Şu-Bilet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FJ-UM-fuf">
-                                <rect key="frame" x="129.33333333333337" y="79" width="134.66666666666663" height="46.666666666666657"/>
+                                <rect key="frame" x="129.33333333333337" y="20" width="134.66666666666663" height="46.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="sKI-gB-JSV">
-                                <rect key="frame" x="16" y="179" width="200" height="130.33333333333337"/>
+                                <rect key="frame" x="16" y="120.00000000000001" width="200" height="130.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFc-bz-COL">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="20.333333333333332"/>
@@ -129,7 +129,7 @@
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1wU-Ep-xwn">
-                                <rect key="frame" x="0.0" y="408" width="393" height="36"/>
+                                <rect key="frame" x="0.0" y="403" width="393" height="36"/>
                                 <connections>
                                     <action selector="dateAndTime:" destination="llm-rh-vcW" eventType="valueChanged" id="ePm-ec-FQa"/>
                                 </connections>
@@ -212,9 +212,6 @@
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="Continue"/>
-                                    <connections>
-                                        <segue destination="YAJ-yY-sPn" kind="show" id="opF-sE-nPn"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -306,21 +303,21 @@
         <!--Passenger Controller-->
         <scene sceneID="QIc-bG-5FI">
             <objects>
-                <viewController id="YAJ-yY-sPn" customClass="PassengerController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PassengerController" id="YAJ-yY-sPn" customClass="PassengerController" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SbJ-Wc-CTi">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMs-gq-Lug">
-                                <rect key="frame" x="64" y="100" width="260" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ad" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UMs-gq-Lug">
+                                <rect key="frame" x="64" y="159" width="260" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="i9m-Qm-5mK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OCR-YI-SVj">
-                                <rect key="frame" x="64" y="166" width="260" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="soyad" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OCR-YI-SVj">
+                                <rect key="frame" x="64" y="225" width="260" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="isc-Py-qqq"/>
                                 </constraints>
@@ -328,14 +325,22 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lag-aN-2S2">
-                                <rect key="frame" x="158" y="403.66666666666669" width="77" height="35"/>
+                                <rect key="frame" x="158" y="408.66666666666669" width="77" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Devam"/>
                                 <connections>
-                                    <action selector="continueButtonTapped:" destination="YAJ-yY-sPn" eventType="touchUpInside" id="iJb-l3-uvU"/>
-                                    <segue destination="pEu-nW-grq" kind="show" identifier="showDetailsSegue" id="yo9-15-w9a"/>
+                                    <action selector="continueButtonTapped:" destination="YAJ-yY-sPn" eventType="touchUpInside" id="gLZ-SN-uQB"/>
+                                    <segue destination="llm-rh-vcW" kind="show" id="Qtm-Ov-sqd"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="tc" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yi3-Wd-n5h">
+                                <rect key="frame" x="66.666666666666686" y="291" width="260" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="MdY-uT-Sq4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VNK-5E-HeZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -343,27 +348,30 @@
                             <constraint firstItem="lag-aN-2S2" firstAttribute="centerY" secondItem="SbJ-Wc-CTi" secondAttribute="centerY" id="A9S-jE-sSB"/>
                             <constraint firstItem="lag-aN-2S2" firstAttribute="centerX" secondItem="SbJ-Wc-CTi" secondAttribute="centerX" id="Dt6-3Y-iEs"/>
                             <constraint firstItem="UMs-gq-Lug" firstAttribute="leading" secondItem="VNK-5E-HeZ" secondAttribute="leading" constant="64" id="L2m-7P-bCe"/>
+                            <constraint firstItem="Yi3-Wd-n5h" firstAttribute="centerX" secondItem="SbJ-Wc-CTi" secondAttribute="centerX" id="LpN-FZ-w8z"/>
                             <constraint firstItem="OCR-YI-SVj" firstAttribute="leading" secondItem="VNK-5E-HeZ" secondAttribute="leading" constant="64" id="Mb6-dS-lxW"/>
                             <constraint firstItem="OCR-YI-SVj" firstAttribute="top" secondItem="UMs-gq-Lug" secondAttribute="bottom" constant="32" id="ND4-Bl-86a"/>
                             <constraint firstItem="UMs-gq-Lug" firstAttribute="top" secondItem="VNK-5E-HeZ" secondAttribute="top" constant="100" id="igc-z0-vdV"/>
+                            <constraint firstItem="Yi3-Wd-n5h" firstAttribute="top" secondItem="OCR-YI-SVj" secondAttribute="bottom" constant="32" id="mXq-Fo-CkG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="l39-yN-mUZ"/>
                     <connections>
+                        <outlet property="passengerId" destination="Yi3-Wd-n5h" id="vZc-IH-k9Q"/>
                         <outlet property="passengerName" destination="UMs-gq-Lug" id="hgE-FV-Bvc"/>
                         <outlet property="passengerSurname" destination="OCR-YI-SVj" id="jbR-Zh-2s8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jII-w6-lyI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6092.3664122137407" y="-24.647887323943664"/>
+            <point key="canvasLocation" x="1895" y="-27"/>
         </scene>
         <!--Details Page-->
         <scene sceneID="uw1-Vr-hDw">
             <objects>
                 <viewController id="pEu-nW-grq" customClass="DetailsPage" customModule="TicketApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7YD-e2-5EV">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ticket Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xd4-4A-WKW">
