@@ -12,7 +12,6 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var buttonNextPage: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        buttonNextPage.setTitle("Diğer Sayfaya Git", for: .normal)
         buttonNextPage.addTarget(self, action: #selector(goToSecondPage), for: .touchUpInside)
       
     }
@@ -20,7 +19,7 @@ class FirstViewController: UIViewController {
     @objc func goToSecondPage() {
             // İkinci sayfayı storyboard'dan al
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let secondVC = storyboard.instantiateViewController(withIdentifier: "PassengerController") as! PassengerController
+            let secondVC = storyboard.instantiateViewController(withIdentifier: "DateController") as! DateController
             
             // Geçiş işlemini gerçekleştir
             navigationController?.pushViewController(secondVC, animated: true)

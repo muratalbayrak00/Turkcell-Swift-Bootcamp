@@ -10,13 +10,17 @@ import UIKit
 class DateController: UIViewController {
 
     @IBOutlet weak var datePicker: UIDatePicker!
-    
-    
     @IBOutlet weak var fromLabel: UILabel!
     @IBOutlet weak var toLabel: UILabel!
     
+    var dateClass: DateClass?
+    var time: Time?
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         NotificationCenter.default.addObserver(self, selector: #selector(handleSelectedCityDestination(_:)), name: .selectedCityNotificationto, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(handleSelectedCityStart(_:)), name: .selectedCityNotificationStart, object: nil)
@@ -24,12 +28,30 @@ class DateController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func dateAndTime(_ sender: Any) {
+    @IBAction func continueButton(_ sender: UIButton) {
+        
         let selectedDate = datePicker.date
         
-        // Seçilen tarihi kullanarak istediğiniz işlemi yapabilirsiniz
-        print("Seçilen Tarih: \(selectedDate)")
+        let calender = Calendar.current
+        let components = calender.dateComponents([.day, .month, .year], from: selectedDate)
+        guard let day = components.day, let month = components.month, let year = components.year else {
+            return
+        }
+        dateClass = DateClass(day: day, month: month, year: year)
+        
+//        let dateFormatter = DateFormatter()
+//        dateFormatter.dateFormat = "HH"
+//        let hour = dateFormatter.string(from: selectedDate)
+//        dateFormatter.dateFormat = "mm"
+//        let minute = dateFormatter.string(from: selectedDate)
+//        
+//        time = Time(hour: hour, minute: minute)
+        
+        print("DateClass: Day \(dateClass?.day), Month \(dateClass?.month), Year \(dateClass?.year)")
+      //  print("Time: Hour \(String(describing: time?.hour)), Minute \(time?.minute)")
     }
+    
+
     
     @objc func handleSelectedCityDestination(_ notification: Notification) {
            if let selectedCityto = notification.object as? CityModel {
@@ -42,22 +64,12 @@ class DateController: UIViewController {
     }
     @objc func handleSelectedCityStart(_ notification: Notification) {
            if let selectedCityfrom = notification.object as? CityModel {
-               // Seçilen şehri kullanabiliriz
                fromLabel.text = selectedCityfrom.cityName
                print("Seçilen şehir: \(selectedCityfrom.cityName)")
                
-               // Burada seçilen şehri istediğiniz şekilde kullanabilirsiniz
            }
     }
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

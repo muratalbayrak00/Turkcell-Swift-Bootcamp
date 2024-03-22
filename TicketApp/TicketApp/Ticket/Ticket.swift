@@ -28,10 +28,26 @@ class Ticket {
     }
     
 
-    
+    /*
+     func karsilastir(bilet: Bilet) -> Bool {
+         for koltukNo in koltuk {
+             if bilet.koltuk.contains(koltukNo) {
+                 print("Hata: Bir veya daha fazla koltuk zaten satılmış.")
+                 return true
+             }
+         }
+         return false
+     }
+     */
  
-    func compare() {
-    
+    func compare(ticket: Ticket) -> Bool {
+        for seatNo in seats {
+            if ticket.seats.contains(seatNo) {
+                Swift.print("bir yada daha fazla koltuk zaten satilmis.")
+                return true
+            }
+        }
+        return false
     }
     
     /*

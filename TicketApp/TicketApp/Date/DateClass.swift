@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Date {
+class DateClass {
     
     var day: Int = 0
     var month: Int = 0

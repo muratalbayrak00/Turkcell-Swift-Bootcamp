@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     @IBOutlet var collectionView: UICollectionView!
     // Koltukların sayısı
     let numberOfSeats = 45
@@ -22,16 +22,15 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-            
-        // Collection view'nin veri kaynağını bu sınıf olarak ayarla
         collectionView.dataSource = self
         collectionView.delegate = self
-               
         collectionView.register(UINib(nibName: "SeatCell", bundle: nil), forCellWithReuseIdentifier: "SeatCell")
-
-        // Collection view'yi yeniden yükle
         collectionView.reloadData()
+        
+        
     }
+    
+
 
     // UICollectionViewDataSource metotları
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -96,9 +95,6 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
             print("koltuk secilemedi")
         }
         
-        
-        
-       
         
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

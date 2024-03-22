@@ -1,5 +1,5 @@
 //
-//  SearchViewController.swift
+//  SearchViewControllerDestinationViewController.swift
 //  TicketApp
 //
 //  Created by murat albayrak on 16.03.2024.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+class SearchViewControllerDestination: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     let searchController = UISearchController(searchResultsController: nil)
     
-    var selectedCityFrom: CityModel?
+    var selectedCityto: CityModel?
     
     var cities: [CityModel] = [
         CityModel(cityName: "İstanbul"),
@@ -30,7 +30,7 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Search"
+        title = "Varış için şehir seçiniz"
         filteredUsers = cities
         tableView.delegate = self
         tableView.dataSource = self
@@ -50,6 +50,7 @@ class SearchViewController: UIViewController {
         //self.cities = cities
     }
     
+
     func filterContextForSearchtext(_ searchText: String) {
         filteredUsers = cities.filter({ city -> Bool in
             return city.cityName.lowercased().contains(searchText.lowercased())
@@ -57,14 +58,15 @@ class SearchViewController: UIViewController {
         
         tableView.reloadData()
     }
+    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if isFiltering {
-            selectedCityFrom = filteredUsers[indexPath.row]
+            selectedCityto = filteredUsers[indexPath.row]
         } else {
-            selectedCityFrom = cities[indexPath.row]
+            selectedCityto = cities[indexPath.row]
         }
         
-        NotificationCenter.default.post(name: .selectedCityNotificationStart, object: selectedCityFrom)
+        NotificationCenter.default.post(name: .selectedCityNotificationto, object: selectedCityto)
 
         // Burada ekranı kapatmak için uygun bir yöntem kullanabilirsiniz
         // Örneğin, bir navigation controller kullanıyorsanız:
@@ -73,7 +75,7 @@ class SearchViewController: UIViewController {
     }
     
     private func configureSearchController() {
-        searchController.searchBar.placeholder = "Search User"
+        searchController.searchBar.placeholder = "İl veya ilçe yazınız"
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
@@ -82,10 +84,10 @@ class SearchViewController: UIViewController {
     
 }
 extension Notification.Name {
-    static let selectedCityNotificationStart = Notification.Name("SelectedCityNotificationStart")
+    static let selectedCityNotificationto = Notification.Name("SelectedCityNotificationto")
 }
 
-extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
+extension SearchViewControllerDestination: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isFiltering {
             return filteredUsers.count
@@ -109,7 +111,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension SearchViewController: UISearchResultsUpdating {
+extension SearchViewControllerDestination: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         let searchBar = searchController.searchBar
         filterContextForSearchtext(searchBar.text!)

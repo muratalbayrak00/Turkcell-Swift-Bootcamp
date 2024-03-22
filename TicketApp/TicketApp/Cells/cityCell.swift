@@ -26,7 +26,7 @@ class cityCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
        
         if selected {
-            if let cityName = cityLabel.text { // Şehir adını aldık
+            if let cityName = cityLabel.text { 
                 fromText = cityName
                 print(fromText)
             } else {
