@@ -17,7 +17,6 @@ class TripCell: UITableViewCell {
     @IBOutlet weak var destinationLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -31,7 +30,7 @@ class TripCell: UITableViewCell {
         timelabel.text = model.timeLabel
         priceLabel.text = model.priceLabel
         fromLabel.text = model.fromLabel
-       destinationLabel.text = model.destinationLabel
+        destinationLabel.text = model.destinationLabel
     }
     
 

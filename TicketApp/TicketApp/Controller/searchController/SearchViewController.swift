@@ -17,7 +17,12 @@ class SearchViewController: UIViewController {
     var cities: [CityModel] = [
         CityModel(cityName: "İstanbul"),
         CityModel(cityName: "Ankara"),
-        CityModel(cityName: "İzmir")
+        CityModel(cityName: "İzmir"),
+        CityModel(cityName: "Antalya"),
+        CityModel(cityName: "Sivas"),
+        CityModel(cityName: "Konya"),
+        CityModel(cityName: "Mersin")
+        
     ]
  var filteredUsers: [CityModel] = []
     var isSearchBarEmpty: Bool {
@@ -45,9 +50,7 @@ class SearchViewController: UIViewController {
     private func configureTableView() {
         tableView.register(UINib(nibName: "cityCell", bundle: nil), forCellReuseIdentifier: "cityCell")
         
-        // Main Thread : UI Islemleri yapilir. (Mulakatta cikabilir.)
-     
-        //self.cities = cities
+       
     }
     
     func filterContextForSearchtext(_ searchText: String) {
@@ -66,8 +69,6 @@ class SearchViewController: UIViewController {
         
         NotificationCenter.default.post(name: .selectedCityNotificationStart, object: selectedCityFrom)
 
-        // Burada ekranı kapatmak için uygun bir yöntem kullanabilirsiniz
-        // Örneğin, bir navigation controller kullanıyorsanız:
         dismiss(animated: true, completion: nil)
         navigationController?.popViewController(animated: true)
     }
@@ -77,7 +78,6 @@ class SearchViewController: UIViewController {
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
-        // definesPresentationContext = true // ODEV NE ISE YARIYOR.
     }
     
 }

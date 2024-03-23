@@ -8,9 +8,11 @@
 import Foundation
 
 struct TripModel {
+  
     let brandImageView: String
     let timeLabel: String
     let priceLabel: String
     let fromLabel: String
     let destinationLabel: String
+
 }

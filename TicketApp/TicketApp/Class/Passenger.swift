@@ -8,11 +8,11 @@
 import Foundation
 
 class Passenger {
-    var name: String = "isimsiz"
-    var surname: String = "isimsiz"
-    var id: Int = 0
+    var name: String
+    var surname: String
+    var id: Int
   
-    init(name: String, surname: String, id: Int) {
+    init(name: String = "isimsiz", surname: String = "isimsiz", id: Int = 0) {
         self.name = name
         self.surname = surname
         self.id = id

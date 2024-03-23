@@ -9,18 +9,18 @@ import Foundation
 
 class DateClass {
     
-    var day: Int = 0
-    var month: Int = 0
+    var day: Int
+    var month: Int
     var year: Int
     
-    init(day: Int, month: Int, year: Int) {
+    init(day: Int = 1, month: Int = 1, year: Int = 2023) {
         self.day = day
         self.month = month
         self.year = year
     }
     
     func print(){
-        Swift.print("date print statetment")
+        Swift.print("\(self.day)/\(self.month)/\(self.year)")
     }
   
 }

@@ -9,30 +9,32 @@ import UIKit
 
 class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     @IBOutlet var collectionView: UICollectionView!
-    // Koltukların sayısı
     let numberOfSeats = 45
     var nonSelectedSeats = [String]()
     var selectedSeats = [String]()
     
     let seatsPerRow = 5
-    let minimumInteritemSpacing: CGFloat = 5 // Minimum yatay boşluk
-    let minimumLineSpacing: CGFloat = 5 // Minimum dikey boşluk
+    let minimumInteritemSpacing: CGFloat = 5
+    let minimumLineSpacing: CGFloat = 5
         
     var ticket: Ticket?
     
     override func viewDidLoad() {
+
         super.viewDidLoad()
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.register(UINib(nibName: "SeatCell", bundle: nil), forCellWithReuseIdentifier: "SeatCell")
+       
         collectionView.reloadData()
-        
         
     }
     
-
-
-    // UICollectionViewDataSource metotları
+    @IBAction func continueButton(_ sender: Any) {
+        UserDefaults.standard.set(selectedSeats, forKey: "selectedSeats")
+    }
+    
+ 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return numberOfSeats
     }
@@ -40,7 +42,6 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SeatCell", for: indexPath) as! SeatCell
         
-        // Hücre içeriğini ayarla, örneğin koltuk numarasını atayabilirsiniz
         cell.seatCellLabel.text = "\(indexPath.item + 1)"
         nonSelectedSeats.append("\(indexPath.item)")
        
@@ -57,8 +58,6 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
     @objc func handleClick(_ sender: UITapGestureRecognizer) {
         
         guard let label = sender.view as? UILabel else { return }
-       // label.backgroundColor = .white
-        // Arka plan rengi beyaz ise yeşil yap, aksi takdirde beyaz yap
         if selectedSeats.count < 5 || selectedSeats.contains(label.text ?? ""){
             if label.backgroundColor == nil {
                 label.backgroundColor = .white
@@ -69,10 +68,8 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
                 if let seatNumberString = label.text, let seatNumber = Int(seatNumberString) {
                     ticket?.addSeatNumber(seatNumber)
                     print("seatdesign ticketin seats arrayine elaman eklendi. \(ticket?.seats[0] ?? 0)")
-                    // Diğer işlemler
                 }
                 if let index = nonSelectedSeats.firstIndex(where: { $0 == label.text }) {
-                    // Bulunan indeksi diziden kaldır
                    
 
                     nonSelectedSeats.remove(at: index)
@@ -80,46 +77,47 @@ class SeatDesign: UIViewController, UICollectionViewDataSource, UICollectionView
             } else {
                 label.backgroundColor = .white
                 if let index = selectedSeats.firstIndex(where: { $0 == label.text }) {
-                    // Bulunan indeksi diziden kaldır
                     selectedSeats.remove(at: index)
                     if let seatNumberString = label.text, let seatNumber = Int(seatNumberString) {
                         print("seatdesign ticketin seats arrayine elaman kaldirildi.\(ticket?.seats[0])")
                         ticket?.removeSeatNumber(seatNumber)
-                        // Diğer işlemler
                     }
                 }
                 nonSelectedSeats.append(label.text ?? "")
             }
             
         } else {
+            let alertController = UIAlertController(title: "Uyarı", message: "En fazla 5 koltuk seçebilirsiniz", preferredStyle: .alert)
+            let actionOK = UIAlertAction(title: "Tamam", style: .default) { (action:UIAlertAction) in
+            print("Tamam butonuna basıldı.")
+            }
+            alertController.addAction(actionOK)
+            self.present(alertController, animated: true, completion: nil)
             print("koltuk secilemedi")
         }
-        
+       
         
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        // Collection view genişliğini al
         let collectionViewWidth = collectionView.frame.width
         
-        // Hücreler arasındaki yatay boşluğu hesapla
         let totalInteritemSpacing = minimumInteritemSpacing * CGFloat(seatsPerRow - 1)
         let availableWidth = collectionViewWidth - totalInteritemSpacing
         
-        // Bir hücrenin genişliğini hesapla
         let cellWidth = availableWidth / CGFloat(seatsPerRow)
         
-        return CGSize(width: cellWidth, height: 50) // Hücre yüksekliği 50 birim olsun
+        return CGSize(width: cellWidth, height: 50)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        // Sol ve sağ kenarlara boşluk ver
         let horizontalInset = minimumInteritemSpacing / 2
         return UIEdgeInsets(top: 0, left: horizontalInset, bottom: 0, right: horizontalInset)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return minimumLineSpacing // Dikey boşluğu ayarla
+        return minimumLineSpacing
     }
+ 
 
 }
     

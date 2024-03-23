@@ -10,16 +10,16 @@ import Foundation
 
 class Time {
     
-    var hour: String = "00"
-    var minute: String = "00"
+    var hour: Int
+    var minute: Int
     
-    init(hour: String, minute: String) {
+    init(hour: Int = 0, minute: Int = 0) {
         self.hour = hour
         self.minute = minute
     }
     
     func print(){
-        Swift.print("time print statetment")
+        Swift.print("\(self.hour):\(self.minute)")
     }
   
 }
