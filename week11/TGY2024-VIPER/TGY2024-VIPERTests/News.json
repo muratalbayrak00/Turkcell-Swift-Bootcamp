@@ -1,0 +1,1843 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2024-05-18T11:20:24-04:00",
+  "num_results": 27,
+  "results": [
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "Biden’s China Tariffs Are the End of an Era for Cheap Chinese Goods",
+      "abstract": "The president’s move to protect strategic manufacturing sectors from low-cost competition aims to increase jobs, but consumers might not like the costs.",
+      "url": "https://www.nytimes.com/2024/05/18/business/biden-china-tariffs.html",
+      "uri": "nyt://article/fb05462c-0237-562f-80a8-eb606ffff292",
+      "byline": "By Jim Tankersley",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T09:53:37-04:00",
+      "created_date": "2024-05-18T00:01:32-04:00",
+      "published_date": "2024-05-18T00:01:32-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations",
+        "United States Economy",
+        "International Trade and World Market",
+        "Customs (Tariff)",
+        "Factories and Manufacturing",
+        "Prices (Fares, Fees and Rates)",
+        "Labor and Jobs",
+        "Presidential Election of 2024",
+        "Layoffs and Job Reductions",
+        "Economic Conditions and Trends",
+        "Electric and Hybrid Vehicles",
+        "Regulation and Deregulation of Industry",
+        "Protectionism (Trade)",
+        "Inflation (Economics)",
+        "Two Thousands (Decade)",
+        "Consumer Behavior"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "China",
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/19/multimedia/18dc-china-econ-01-tlzw/18dc-china-econ-01-tlzw-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden signing an executive order imposing new tariffs on Chinese goods, including a 100 percent tax on electric vehicles.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/19/multimedia/18dc-china-econ-01-tlzw/18dc-china-econ-01-tlzw-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden signing an executive order imposing new tariffs on Chinese goods, including a 100 percent tax on electric vehicles.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/19/multimedia/18dc-china-econ-01-tlzw/18dc-china-econ-01-tlzw-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden signing an executive order imposing new tariffs on Chinese goods, including a 100 percent tax on electric vehicles.",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "business",
+      "subsection": "dealbook",
+      "title": "How Companies Dodge Tariffs",
+      "abstract": "Protectionist trade policies are popular on both the left and right. But some economists say they’re likely to backfire.",
+      "url": "https://www.nytimes.com/2024/05/18/business/dealbook/how-companies-dodge-tariffs.html",
+      "uri": "nyt://article/cd9afadc-7ba2-550d-bd90-92957ab5823c",
+      "byline": "By Bernhard Warner, Michael J. de la Merced and Sarah Kessler",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T08:00:02-04:00",
+      "created_date": "2024-05-18T08:00:02-04:00",
+      "published_date": "2024-05-18T08:00:02-04:00",
+      "material_type_facet": "",
+      "kicker": "DealBook Newsletter",
+      "des_facet": [
+        "Customs (Tariff)",
+        "International Trade and World Market",
+        "United States Politics and Government",
+        "United States Economy"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/business/18DB-trade/18DB-trade-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The U.S. trade representative, Katherine Tai, discussing the Biden administration’s tariff increases against China on Tuesday.",
+          "copyright": "Win McNamee/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/business/18DB-trade/18DB-trade-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The U.S. trade representative, Katherine Tai, discussing the Biden administration’s tariff increases against China on Tuesday.",
+          "copyright": "Win McNamee/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/business/18DB-trade/18DB-trade-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The U.S. trade representative, Katherine Tai, discussing the Biden administration’s tariff increases against China on Tuesday.",
+          "copyright": "Win McNamee/Getty Images"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "In His Beloved Philadelphia, Biden Faces Wariness From Black Voters",
+      "abstract": "Even in the president’s favorite political stomping ground, his standing has slipped with Democrats who will be vital to a repeat victory, interviews with nearly two dozen Black voters showed.",
+      "url": "https://www.nytimes.com/2024/05/18/us/politics/biden-philadelphia-black-voters.html",
+      "uri": "nyt://article/e865f030-ba55-5d07-b1e7-7bed34ed4f3b",
+      "byline": "By Maya King and Katie Glueck",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T09:32:10-04:00",
+      "created_date": "2024-05-18T05:03:35-04:00",
+      "published_date": "2024-05-18T05:03:35-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Black People",
+        "Voting and Voters",
+        "Presidential Election of 2024",
+        "Polls and Public Opinion",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [
+        "Philadelphia (Pa)",
+        "Pennsylvania"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18pol-phillyblackvoters-topart-kltc/18pol-phillyblackvoters-topart-kltc-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Black voters were crucial to President Biden’s winning 2020 coalition, but they, like other groups of Democrats, have appeared less energized so far in 2024. ",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18pol-phillyblackvoters-topart-kltc/18pol-phillyblackvoters-topart-kltc-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Black voters were crucial to President Biden’s winning 2020 coalition, but they, like other groups of Democrats, have appeared less energized so far in 2024. ",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18pol-phillyblackvoters-topart-kltc/18pol-phillyblackvoters-topart-kltc-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Black voters were crucial to President Biden’s winning 2020 coalition, but they, like other groups of Democrats, have appeared less energized so far in 2024. ",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Can Biden Recapture Lightning in a Bottle in Georgia?",
+      "abstract": "His narrow win there in 2020 was seen as a sign of Georgia’s emergence as a battleground state. But in 2024, President Biden faces a much different climate there.",
+      "url": "https://www.nytimes.com/2024/05/18/us/biden-georgia-election-voters.html",
+      "uri": "nyt://article/29120359-14d1-5c30-b9b8-a4ceaf5892f3",
+      "byline": "By Rick Rojas and Maya King",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:59:20-04:00",
+      "created_date": "2024-05-18T05:03:35-04:00",
+      "published_date": "2024-05-18T05:03:35-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Presidential Election of 2020",
+        "United States Politics and Government",
+        "Voting Rights, Registration and Requirements",
+        "Elections"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Atlanta (Ga)",
+        "Georgia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18nat-georgia-mood-01-zlmw/18nat-georgia-mood-01-zlmw-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden, speaking at Morehouse College and Clark Atlanta University, in 2022. ",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18nat-georgia-mood-01-zlmw/18nat-georgia-mood-01-zlmw-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden, speaking at Morehouse College and Clark Atlanta University, in 2022. ",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18nat-georgia-mood-01-zlmw/18nat-georgia-mood-01-zlmw-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Biden, speaking at Morehouse College and Clark Atlanta University, in 2022. ",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "A Would-be Assassin Stirs Europe’s Violent Ghosts",
+      "abstract": "Political violence and polarization stalk Europe today, with ominous echoes of the past.",
+      "url": "https://www.nytimes.com/2024/05/18/world/europe/fico-shooting-slovakia-europe-politics.html",
+      "uri": "nyt://article/30e09d65-497e-5684-b231-334b54cb96e2",
+      "byline": "By Roger Cohen",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:11:26-04:00",
+      "created_date": "2024-05-18T00:01:49-04:00",
+      "published_date": "2024-05-18T00:01:49-04:00",
+      "material_type_facet": "",
+      "kicker": "News analysis",
+      "des_facet": [
+        "Politics and Government",
+        "United States International Relations",
+        "Assassinations and Attempted Assassinations",
+        "Russian Invasion of Ukraine (2022)",
+        "Nationalism (Theory and Philosophy)",
+        "Elections",
+        "World War I (1914-18)",
+        "Immigration and Emigration",
+        "Social Media",
+        "Fringe Groups and Movements",
+        "International Relations",
+        "Democracy (Theory and Philosophy)",
+        "Right-Wing Extremism and Alt-Right"
+      ],
+      "org_facet": [
+        "Alternative for Germany",
+        "European Parliament",
+        "European Union",
+        "Law and Justice (Poland)",
+        "National Rally (France)",
+        "Social Democratic Party (Germany)"
+      ],
+      "per_facet": [
+        "Ferdinand, Franz (1863-1914)",
+        "Fico, Robert",
+        "Kaczynski, Jaroslaw",
+        "Medvedev, Dmitri A",
+        "Putin, Vladimir V",
+        "Le Pen, Marine"
+      ],
+      "geo_facet": [
+        "Europe",
+        "Slovakia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18fico-europe-01-wgcb/18fico-europe-01-wgcb-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1368,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police detained a man at the scene where Prime Minister Robert Fico of Slovakia was shot, in Handlova, Slovakia, on Wednesday.",
+          "copyright": "Radovan Stoklasa/TASR Slovakia, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18fico-europe-01-wgcb/18fico-europe-01-wgcb-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police detained a man at the scene where Prime Minister Robert Fico of Slovakia was shot, in Handlova, Slovakia, on Wednesday.",
+          "copyright": "Radovan Stoklasa/TASR Slovakia, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18fico-europe-01-wgcb/18fico-europe-01-wgcb-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Police detained a man at the scene where Prime Minister Robert Fico of Slovakia was shot, in Handlova, Slovakia, on Wednesday.",
+          "copyright": "Radovan Stoklasa/TASR Slovakia, via Associated Press"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Slovakian Charged in Shooting ‘Was Against Everything’",
+      "abstract": "People who know the suspect described a “weird and angry” loner who wrote erotic poetry, and whose resentments ranged across the political spectrum.",
+      "url": "https://www.nytimes.com/2024/05/18/world/europe/slovakia-shooter-suspect.html",
+      "uri": "nyt://article/6eae42d5-f0cb-5dff-83ed-b762bab8194f",
+      "byline": "By Andrew Higgins",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T03:31:53-04:00",
+      "created_date": "2024-05-18T00:02:01-04:00",
+      "published_date": "2024-05-18T00:02:01-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Murders, Attempted Murders and Homicides",
+        "Romani People",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Fico, Robert"
+      ],
+      "geo_facet": [
+        "Russia",
+        "Slovakia",
+        "Ukraine",
+        "Czechoslovakia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/multimedia/17slovakia-shooter-jbwk/17slovakia-shooter-jbwk-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A person was detained after Prime Minister Robert Fico of Slovakia was shot five times on Wednesday in Handlova, Slovakia.",
+          "copyright": "Radovan Stoklasa/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/multimedia/17slovakia-shooter-jbwk/17slovakia-shooter-jbwk-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A person was detained after Prime Minister Robert Fico of Slovakia was shot five times on Wednesday in Handlova, Slovakia.",
+          "copyright": "Radovan Stoklasa/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/multimedia/17slovakia-shooter-jbwk/17slovakia-shooter-jbwk-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A person was detained after Prime Minister Robert Fico of Slovakia was shot five times on Wednesday in Handlova, Slovakia.",
+          "copyright": "Radovan Stoklasa/Reuters"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "middleeast",
+      "title": "Under Israeli Bombs, a Wartime Economy Emerges in Gaza",
+      "abstract": "Amid the destruction, a marketplace of survival has arisen focused on the basics: food, shelter and money.",
+      "url": "https://www.nytimes.com/2024/05/18/world/middleeast/israel-gaza-economy.html",
+      "uri": "nyt://article/1c09e674-11b2-5bae-b631-f455444579a5",
+      "byline": "By Raja Abdulrahim and Bilal Shbair",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T05:00:30-04:00",
+      "created_date": "2024-05-18T05:00:30-04:00",
+      "published_date": "2024-05-18T05:00:30-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Israel-Gaza War (2023- )",
+        "Palestinians",
+        "International Relations",
+        "Prices (Fares, Fees and Rates)",
+        "Defense and Military Forces"
+      ],
+      "org_facet": [
+        "Hamas"
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        "Gaza Strip",
+        "Israel"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/03/multimedia/00gaza-war-economy-01-mvcf/00gaza-war-economy-01-mvcf-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A boy helping a vendor arrange merchandise last month in Rafah, in the southern Gaza Strip.",
+          "copyright": "Mohammed Abed/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/03/multimedia/00gaza-war-economy-01-mvcf/00gaza-war-economy-01-mvcf-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A boy helping a vendor arrange merchandise last month in Rafah, in the southern Gaza Strip.",
+          "copyright": "Mohammed Abed/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/03/multimedia/00gaza-war-economy-01-mvcf/00gaza-war-economy-01-mvcf-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A boy helping a vendor arrange merchandise last month in Rafah, in the southern Gaza Strip.",
+          "copyright": "Mohammed Abed/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "books",
+      "subsection": "",
+      "title": "Inside Reese Witherspoon’s Literary Empire",
+      "abstract": "When her career hit a wall, the Oscar-winning actor built a ladder made of books — for herself, and for others.",
+      "url": "https://www.nytimes.com/2024/05/18/books/reese-witherspoon-book-club.html",
+      "uri": "nyt://article/ca5ca134-65ea-5a6f-8b3d-0f5cc54f250e",
+      "byline": "By Elisabeth Egan",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T09:18:36-04:00",
+      "created_date": "2024-05-18T05:01:17-04:00",
+      "published_date": "2024-05-18T05:01:17-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Books and Literature",
+        "Book Clubs",
+        "Book Trade and Publishing",
+        "Writing and Writers",
+        "Academy Awards (Oscars)",
+        "Women and Girls",
+        "Social Media",
+        "Actors and Actresses",
+        "Media",
+        "internal-truncator",
+        "Big Little Lies (Book)",
+        "Big Little Lies (TV Program)",
+        "Gone Girl (Book)",
+        "Little Fires Everywhere (Book)",
+        "Little Fires Everywhere (TV Program)"
+      ],
+      "org_facet": [
+        "Hello Sunshine (Be Sunshine LLC)",
+        "Instagram Inc"
+      ],
+      "per_facet": [
+        "Witherspoon, Reese",
+        "Frankel, Laurie",
+        "Lombardo, Claire (Author)",
+        "Reid, Kiley",
+        "Strayed, Cheryl",
+        "Winfrey, Oprah"
+      ],
+      "geo_facet": [
+        "Los Angeles (Calif)",
+        "Nashville (Tenn)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18REESE-promo2-cktw/18REESE-promo2-cktw-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jingyu Lin for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18REESE-promo2-cktw/18REESE-promo2-cktw-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jingyu Lin for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18REESE-promo2-cktw/18REESE-promo2-cktw-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jingyu Lin for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Jail Death Lawsuit Is Settled for $7.5 Million Amid California Inquiry",
+      "abstract": "A violent encounter captured on video was part of a surge in jail deaths that spurred an inquiry into the Riverside County Sheriff’s Department.",
+      "url": "https://www.nytimes.com/2024/05/17/us/california-riverside-jail-death-lawsuit.html",
+      "uri": "nyt://article/72dd41dd-c49c-50ae-baaa-328def0b5f20",
+      "byline": "By Christopher Damien",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:30:24-04:00",
+      "created_date": "2024-05-17T21:17:18-04:00",
+      "published_date": "2024-05-17T21:17:18-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-open-access",
+        "Sheriffs",
+        "Suits and Litigation (Civil)",
+        "Compensation for Damages (Law)",
+        "Prisons and Prisoners",
+        "Deaths (Fatalities)",
+        "Police Brutality, Misconduct and Shootings",
+        "Stun Guns"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        "Riverside County (Calif)",
+        "Banning (Calif)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/reader-center/zumwalt-cover/zumwalt-cover-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1080,
+          "width": 1620,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Riverside County Sheriff’s Department"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/reader-center/zumwalt-cover/zumwalt-cover-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Riverside County Sheriff’s Department"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/reader-center/zumwalt-cover/zumwalt-cover-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Riverside County Sheriff’s Department"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Russians Poured Over Ukraine’s Border. There Was Little to Stop Them.",
+      "abstract": "The stunning incursion into the Kharkiv Region lays bare the challenges facing Ukraine’s weary and thinly stretched forces as Russia ramps up its summer offensive.",
+      "url": "https://www.nytimes.com/2024/05/18/world/europe/ukraine-russia-advance-kharkiv.html",
+      "uri": "nyt://article/2654de7a-6515-5ebf-997d-fce3d79f2e10",
+      "byline": "By Michael Schwirtz, Jeffrey Gettleman, Maria Varenikova and Constant Méheut",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T09:29:37-04:00",
+      "created_date": "2024-05-18T05:02:35-04:00",
+      "published_date": "2024-05-18T05:02:35-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations",
+        "Russian Invasion of Ukraine (2022)",
+        "International Relations",
+        "Politics and Government"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Lavrov, Sergey V",
+        "Putin, Vladimir V"
+      ],
+      "geo_facet": [
+        "Kharkiv (Ukraine)",
+        "Russia",
+        "Ukraine"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18ukraine-kharkiv-01-zqkj/18ukraine-kharkiv-01-zqkj-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nearly 10,000 residents had fled areas in Ukraine’s Kharkiv Region as of Saturday, according to the region’s governor. Residents have reported whole villages wiped out in the fighting.",
+          "copyright": "Finbarr O’Reilly for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18ukraine-kharkiv-01-zqkj/18ukraine-kharkiv-01-zqkj-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nearly 10,000 residents had fled areas in Ukraine’s Kharkiv Region as of Saturday, according to the region’s governor. Residents have reported whole villages wiped out in the fighting.",
+          "copyright": "Finbarr O’Reilly for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18ukraine-kharkiv-01-zqkj/18ukraine-kharkiv-01-zqkj-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Nearly 10,000 residents had fled areas in Ukraine’s Kharkiv Region as of Saturday, according to the region’s governor. Residents have reported whole villages wiped out in the fighting.",
+          "copyright": "Finbarr O’Reilly for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "asia",
+      "title": "Xi’s Warm Embrace of Putin in China Is a Defiance of the West",
+      "abstract": "Western leaders looking for signs that the Chinese leader used his influence on President Vladimir V. Putin to end the war in Ukraine are likely to be disappointed.",
+      "url": "https://www.nytimes.com/2024/05/18/world/asia/putin-xi-china-russia.html",
+      "uri": "nyt://article/62908fd2-d5fc-5b8f-86a7-5e00dfea5a4e",
+      "byline": "By David Pierson",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T05:04:11-04:00",
+      "created_date": "2024-05-18T05:04:11-04:00",
+      "published_date": "2024-05-18T05:04:11-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "International Relations",
+        "Embargoes and Sanctions",
+        "United States International Relations",
+        "Russian Invasion of Ukraine (2022)",
+        "Territorial Disputes"
+      ],
+      "org_facet": [
+        "Communist Party of China"
+      ],
+      "per_facet": [
+        "Putin, Vladimir V",
+        "Xi Jinping"
+      ],
+      "geo_facet": [
+        "China",
+        "Moscow (Russia)",
+        "Russia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18xi-putin-diplo-01-bpzl/18xi-putin-diplo-01-bpzl-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A photograph provided by Russian state media shows Xi Jinping, China’s leader, and President Vladimir V. Putin of Russia in Beijing on Thursday.",
+          "copyright": "Mikhail Metzel/Sputnik"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18xi-putin-diplo-01-bpzl/18xi-putin-diplo-01-bpzl-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A photograph provided by Russian state media shows Xi Jinping, China’s leader, and President Vladimir V. Putin of Russia in Beijing on Thursday.",
+          "copyright": "Mikhail Metzel/Sputnik"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18xi-putin-diplo-01-bpzl/18xi-putin-diplo-01-bpzl-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A photograph provided by Russian state media shows Xi Jinping, China’s leader, and President Vladimir V. Putin of Russia in Beijing on Thursday.",
+          "copyright": "Mikhail Metzel/Sputnik"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Russia Presses Attacks in Northeast Ukraine, Seeking Buffer Zone on Border",
+      "abstract": "Advances by Russian forces have raised fears that they could bring their artillery in range of Kharkiv, Ukraine’s second largest city.",
+      "url": "https://www.nytimes.com/2024/05/18/world/europe/russia-northeast-ukraine.html",
+      "uri": "nyt://article/a1a1b307-630a-58b2-a6bb-3eaa8452bdbc",
+      "byline": "By Constant Méheut",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:42:35-04:00",
+      "created_date": "2024-05-18T07:13:01-04:00",
+      "published_date": "2024-05-18T07:13:01-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Defense and Military Forces",
+        "Russian Invasion of Ukraine (2022)",
+        "Evacuations and Evacuees"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        "Kharkiv (Ukraine)",
+        "Kyiv (Ukraine)",
+        "Ukraine"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18ukraine-battlefield-1-glzk/18ukraine-battlefield-1-glzk-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Smoke rising from the site of a strike on industrial buildings in Kharkiv on Friday. Russia is already targeting the city with missiles and powerful glide bombs.",
+          "copyright": "Finbarr O'Reilly for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18ukraine-battlefield-1-glzk/18ukraine-battlefield-1-glzk-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Smoke rising from the site of a strike on industrial buildings in Kharkiv on Friday. Russia is already targeting the city with missiles and powerful glide bombs.",
+          "copyright": "Finbarr O'Reilly for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18ukraine-battlefield-1-glzk/18ukraine-battlefield-1-glzk-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Smoke rising from the site of a strike on industrial buildings in Kharkiv on Friday. Russia is already targeting the city with missiles and powerful glide bombs.",
+          "copyright": "Finbarr O'Reilly for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "An Ex-President, a Senator and the Center of the (Legal) Universe",
+      "abstract": "Manhattan is playing host to two of the biggest political trials in American history. The courthouses are just 500 feet apart.",
+      "url": "https://www.nytimes.com/2024/05/18/nyregion/trump-menendez-trials-courthouse.html",
+      "uri": "nyt://article/000175b0-cbce-5f20-91cc-e673ed8b5c8d",
+      "byline": "By Nicholas Fandos",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T08:42:13-04:00",
+      "created_date": "2024-05-18T03:00:38-04:00",
+      "published_date": "2024-05-18T03:00:38-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "Politics and Government",
+        "Bribery and Kickbacks",
+        "New York State Criminal Case Against Trump (71543-23)",
+        "Courts and the Judiciary"
+      ],
+      "org_facet": [
+        "Senate Committee on Foreign Relations"
+      ],
+      "per_facet": [
+        "Menendez, Robert",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Manhattan (NYC)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/multimedia/two-trials-alt-01-tvjl/two-trials-alt-01-tvjl-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The trial of former President Donald J. Trump has drawn fervent supporters. The trial of Senator Robert Menendez, just down the street, is a more muted affair.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/multimedia/two-trials-alt-01-tvjl/two-trials-alt-01-tvjl-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The trial of former President Donald J. Trump has drawn fervent supporters. The trial of Senator Robert Menendez, just down the street, is a more muted affair.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/multimedia/two-trials-alt-01-tvjl/two-trials-alt-01-tvjl-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The trial of former President Donald J. Trump has drawn fervent supporters. The trial of Senator Robert Menendez, just down the street, is a more muted affair.",
+          "copyright": "Dave Sanders for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "Trump’s New York Trial: Where Page Six Meets ‘12 Angry Men’",
+      "abstract": "The machinery of celebrity is being laid bare in a Manhattan courtroom amid the first criminal prosecution of a former U.S. president.",
+      "url": "https://www.nytimes.com/2024/05/18/nyregion/trump-trial-celebrities-tv-media.html",
+      "uri": "nyt://article/9627d376-add3-5daf-aa2e-dddc52b6a74f",
+      "byline": "By Jesse McKinley",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T03:00:32-04:00",
+      "created_date": "2024-05-18T03:00:32-04:00",
+      "published_date": "2024-05-18T03:00:32-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "New York State Criminal Case Against Trump (71543-23)",
+        "News and News Media",
+        "Television",
+        "United States Politics and Government",
+        "Adultery",
+        "Cable Television",
+        "Actors and Actresses",
+        "Social Media",
+        "Two Thousands (Decade)",
+        "Bombshell (Movie)"
+      ],
+      "org_facet": [
+        "CNN",
+        "Fox News Channel",
+        "MSNBC",
+        "MTV Networks",
+        "Playboy Magazine",
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Clifford, Stephanie (1979- )",
+        "Cohen, Michael D (1966- )",
+        "Cooper, Anderson",
+        "Davidson, Keith M",
+        "Hicks, Hope C (1988- )",
+        "Maddow, Rachel",
+        "Margolick, David",
+        "O'Donnell, Rosie",
+        "Pirro, Jeanine",
+        "Trump, Donald J",
+        "Simpson, O J",
+        "Sheen, Charlie",
+        "Schwarzenegger, Arnold"
+      ],
+      "geo_facet": [
+        "New York City"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18trump-media1-fmjq/18trump-media1-fmjq-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald J. Trump’s trial sprang from a world of televised images, an economy of attention where fame equated to wealth.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18trump-media1-fmjq/18trump-media1-fmjq-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald J. Trump’s trial sprang from a world of televised images, an economy of attention where fame equated to wealth.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18trump-media1-fmjq/18trump-media1-fmjq-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald J. Trump’s trial sprang from a world of televised images, an economy of attention where fame equated to wealth.",
+          "copyright": "Dave Sanders for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Trump Has Long Prized Certain Tactics. His Trial Has Highlighted Them.",
+      "abstract": "The former president’s criminal trial has underscored what he values: loyalty, beauty, press coverage and using allies as bullies.",
+      "url": "https://www.nytimes.com/2024/05/18/us/politics/trump-trial-tactics.html",
+      "uri": "nyt://article/3e828e76-2830-560c-a581-a06444ab05ce",
+      "byline": "By Maggie Haberman and Jonah E. Bromwich",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T09:07:46-04:00",
+      "created_date": "2024-05-18T05:04:28-04:00",
+      "published_date": "2024-05-18T05:04:28-04:00",
+      "material_type_facet": "",
+      "kicker": "political memo",
+      "des_facet": [
+        "New York State Criminal Case Against Trump (71543-23)"
+      ],
+      "org_facet": [
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Blanche, Todd (Attorney)",
+        "Clifford, Stephanie (1979- )",
+        "Cohen, Michael D (1966- )",
+        "Conway, George T III",
+        "Donalds, Byron (1978- )",
+        "Epshteyn, Boris",
+        "Gaetz, Matt",
+        "Merchan, Juan M",
+        "Pence, Mike",
+        "Ramaswamy, Vivek (1985- )",
+        "Scott, Richard L",
+        "Trump, Donald J",
+        "Trump, Eric F (1984- )"
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18pol-trump-trial-memo-mqcv/18pol-trump-trial-memo-mqcv-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Many G.O.P. allies of former President Donald J. Trump have come to the courthouse to support him, including, from left, Representatives Cory Mills and Byron Donalds, the former presidential candidate Vivek Ramaswamy and Gov. Doug Burgum of North Dakota.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18pol-trump-trial-memo-mqcv/18pol-trump-trial-memo-mqcv-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Many G.O.P. allies of former President Donald J. Trump have come to the courthouse to support him, including, from left, Representatives Cory Mills and Byron Donalds, the former presidential candidate Vivek Ramaswamy and Gov. Doug Burgum of North Dakota.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18pol-trump-trial-memo-mqcv/18pol-trump-trial-memo-mqcv-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Many G.O.P. allies of former President Donald J. Trump have come to the courthouse to support him, including, from left, Representatives Cory Mills and Byron Donalds, the former presidential candidate Vivek Ramaswamy and Gov. Doug Burgum of North Dakota.",
+          "copyright": "Dave Sanders for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "What’s BlackRock Without Larry Fink? Shareholders Fret About Future.",
+      "abstract": "Investors in the world’s biggest asset manager are asking how much more room it has to grow and who will drive that growth once its chief executive retires.",
+      "url": "https://www.nytimes.com/2024/05/18/business/blackrock-larry-fink-future.html",
+      "uri": "nyt://article/b4d62fd7-c17f-5a33-86f1-8fb2da5256fb",
+      "byline": "By Maureen Farrell",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T09:36:26-04:00",
+      "created_date": "2024-05-18T05:01:41-04:00",
+      "published_date": "2024-05-18T05:01:41-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Hedge Funds",
+        "Appointments and Executive Changes",
+        "Banking and Financial Institutions",
+        "Corporate Social Responsibility",
+        "Pensions and Retirement Plans"
+      ],
+      "org_facet": [
+        "BlackRock Inc",
+        "Global Infrastructure Partners"
+      ],
+      "per_facet": [
+        "Fink, Laurence D"
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/14/multimedia/00blackrock-01-kmgw/00blackrock-01-kmgw-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Laurence D. Fink, who is 71, has built BlackRock into a manager of $10.5 trillion in assets since co-founding the company in 1988.",
+          "copyright": "Winnie Au for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/14/multimedia/00blackrock-01-kmgw/00blackrock-01-kmgw-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Laurence D. Fink, who is 71, has built BlackRock into a manager of $10.5 trillion in assets since co-founding the company in 1988.",
+          "copyright": "Winnie Au for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/14/multimedia/00blackrock-01-kmgw/00blackrock-01-kmgw-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Laurence D. Fink, who is 71, has built BlackRock into a manager of $10.5 trillion in assets since co-founding the company in 1988.",
+          "copyright": "Winnie Au for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "podcasts",
+      "subsection": "",
+      "title": "The Forever Trial",
+      "abstract": "How the sister of one victim of the Sept. 11 attacks is navigating the trial of the men accused of orchestrating it.",
+      "url": "https://www.nytimes.com/2024/05/18/podcasts/forever-trial-guantanamo-this-american-life-nyt-audio.html",
+      "uri": "nyt://article/d1381488-8cfb-5229-b6cf-172652981f6d",
+      "byline": "",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T07:06:06-04:00",
+      "created_date": "2024-05-18T07:00:47-04:00",
+      "published_date": "2024-05-18T07:00:47-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-truncator"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/08/podcasts/serial-season-4-ep-8/serial-season-4-ep-8-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Max Guther"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/08/podcasts/serial-season-4-ep-8/serial-season-4-ep-8-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Max Guther"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/08/podcasts/serial-season-4-ep-8/serial-season-4-ep-8-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Illustration by Max Guther"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The Truth Hurts — Especially When Bill Maher Dishes It Out",
+      "abstract": "“Why can’t everybody live in my world, in the middle,” he says, “where we’re not nuts?”",
+      "url": "https://www.nytimes.com/2024/05/18/opinion/bill-maher-book.html",
+      "uri": "nyt://article/02b6a46d-e9cd-5d16-bed5-ee2936d3c1fd",
+      "byline": "By Maureen Dowd",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:10:10-04:00",
+      "created_date": "2024-05-18T07:00:15-04:00",
+      "published_date": "2024-05-18T07:00:15-04:00",
+      "material_type_facet": "",
+      "kicker": "Maureen Dowd",
+      "des_facet": [
+        "Real Time With Bill Maher (TV Program)",
+        "Television",
+        "United States Politics and Government",
+        "Books and Literature",
+        "What This Comedian Said Will Shock You (Book)",
+        "Comedy and Humor",
+        "internal-truncator"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Maher, Bill"
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/19/multimedia/18dowd-1-mjcg/18dowd-1-mjcg-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": 1638,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "With old, one-eyed Chico, a rescue dog.",
+          "copyright": "Balazs Gardi for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/19/multimedia/18dowd-1-mjcg/18dowd-1-mjcg-threeByTwoSmallAt2X-v2.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "With old, one-eyed Chico, a rescue dog.",
+          "copyright": "Balazs Gardi for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/19/multimedia/18dowd-1-mjcg/18dowd-1-mjcg-thumbLarge-v3.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "With old, one-eyed Chico, a rescue dog.",
+          "copyright": "Balazs Gardi for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "It Is Inexcusable How Judge Cannon Is Delaying the Trump Documents Case",
+      "abstract": "She is utterly failing to keep the case moving along in a fair but timely manner.",
+      "url": "https://www.nytimes.com/2024/05/18/opinion/judge-cannon-trump-documents-case.html",
+      "uri": "nyt://article/de2948bd-bb51-5307-9d37-1897eacfc61a",
+      "byline": "By Brian Greer",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:55:41-04:00",
+      "created_date": "2024-05-18T07:00:08-04:00",
+      "published_date": "2024-05-18T07:00:08-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "Federal Criminal Case Against Trump (Documents Case)",
+        "Presidential Election of 2024",
+        "Special Prosecutors (Independent Counsel)"
+      ],
+      "org_facet": [
+        "Justice Department"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Cannon, Aileen M"
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/opinion/18greer/18greer-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Millie von Platen"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/opinion/18greer/18greer-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Millie von Platen"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/opinion/18greer/18greer-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Millie von Platen"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The View Within Israel Turns Bleak",
+      "abstract": "Attitudes toward the “Palestinian problem” range from detached fatigue to the belief that driving Palestinians into submission is God’s work.",
+      "url": "https://www.nytimes.com/2024/05/16/opinion/israeli-palestine-psyche.html",
+      "uri": "nyt://article/97f1bdb7-9d34-5d17-a79f-15c358da4334",
+      "byline": "By Megan K. Stack",
+      "item_type": "Article",
+      "updated_date": "2024-05-17T21:24:08-04:00",
+      "created_date": "2024-05-16T14:40:06-04:00",
+      "published_date": "2024-05-16T14:40:06-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "Palestinians",
+        "Jews and Judaism",
+        "Israel-Gaza War (2023- )",
+        "Israeli Settlements",
+        "Civilian Casualties"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Netanyahu, Benjamin"
+      ],
+      "geo_facet": [
+        "Gaza Strip",
+        "Israel",
+        "West Bank"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/17stack-3-hkpc/17stack-3-hkpc-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1536,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A barrier wall snakes along the West Bank.",
+          "copyright": "William Keo for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/17stack-3-hkpc/17stack-3-hkpc-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A barrier wall snakes along the West Bank.",
+          "copyright": "William Keo for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/17stack-3-hkpc/17stack-3-hkpc-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A barrier wall snakes along the West Bank.",
+          "copyright": "William Keo for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Invading Rafah Doesn’t Help Israel",
+      "abstract": "Biden is supporting Israel by trying to restrain it.",
+      "url": "https://www.nytimes.com/2024/05/18/opinion/rafah-gaza-israel.html",
+      "uri": "nyt://article/e1557e65-6c97-5522-a14b-64868f9ce2ac",
+      "byline": "By Nicholas Kristof",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:05:32-04:00",
+      "created_date": "2024-05-18T07:00:18-04:00",
+      "published_date": "2024-05-18T07:00:18-04:00",
+      "material_type_facet": "",
+      "kicker": "Nicholas Kristof",
+      "des_facet": [
+        "Israel-Gaza War (2023- )",
+        "United States International Relations",
+        "Palestinians",
+        "Civilian Casualties",
+        "Defense and Military Forces",
+        "Jews and Judaism"
+      ],
+      "org_facet": [
+        "Hamas"
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        "Gaza Strip",
+        "Israel"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18kristof-1-wcgb/18kristof-1-wcgb-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Israeli strikes east of Rafah in the southern Gaza Strip.",
+          "copyright": "Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18kristof-1-wcgb/18kristof-1-wcgb-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Israeli strikes east of Rafah in the southern Gaza Strip.",
+          "copyright": "Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18kristof-1-wcgb/18kristof-1-wcgb-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Israeli strikes east of Rafah in the southern Gaza Strip.",
+          "copyright": "Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "briefing",
+      "subsection": "",
+      "title": "Queen of the Book Club",
+      "abstract": "Sitting down for lunch with Reese Witherspoon, whose book picks have become a force in the publishing industry.",
+      "url": "https://www.nytimes.com/2024/05/18/briefing/reese-witherspoon-book-club-chat.html",
+      "uri": "nyt://article/8514c9de-4ead-572b-a9ea-0524a19226cf",
+      "byline": "By Elisabeth Egan",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T06:29:50-04:00",
+      "created_date": "2024-05-18T06:29:50-04:00",
+      "published_date": "2024-05-18T06:29:50-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-storyline-no",
+        "Book Clubs",
+        "Book Trade and Publishing",
+        "Actors and Actresses",
+        "Movies"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Witherspoon, Reese"
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/arts/18themorning-ambriefing-web/18themorning-nl-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "María Jesús Contreras"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/arts/18themorning-ambriefing-web/18themorning-nl-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "María Jesús Contreras"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/arts/18themorning-ambriefing-web/18themorning-nl-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "María Jesús Contreras"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "climate",
+      "subsection": "",
+      "title": "The Cost of Competing With China",
+      "abstract": "The Biden administration is betting that new China tariffs will be politically popular, even if they could slow the transition from fossil fuels.",
+      "url": "https://www.nytimes.com/2024/05/16/climate/biden-china-tarrifs-evs-climate.html",
+      "uri": "nyt://article/9d2fb890-56a3-5af1-9bd8-abeaf02358e5",
+      "byline": "By Jim Tankersley and David Gelles",
+      "item_type": "Article",
+      "updated_date": "2024-05-16T15:24:01-04:00",
+      "created_date": "2024-05-16T15:07:52-04:00",
+      "published_date": "2024-05-16T15:07:52-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "internal-sub-only-nl",
+        "Alternative and Renewable Energy",
+        "International Trade and World Market"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": [
+        "Alberta (Canada)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/16/climate/16cli-newsletter-biden-unions/16cli-newsletter-biden-unions-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Cars waiting to depart from the Port of Nanjing in China last month.",
+          "copyright": "CFOTO/Future Publishing, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/16/climate/16cli-newsletter-biden-unions/16cli-newsletter-biden-unions-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Cars waiting to depart from the Port of Nanjing in China last month.",
+          "copyright": "CFOTO/Future Publishing, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/16/climate/16cli-newsletter-biden-unions/16cli-newsletter-biden-unions-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Cars waiting to depart from the Port of Nanjing in China last month.",
+          "copyright": "CFOTO/Future Publishing, via Getty Images"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Youngkin Vetoes Measures to Remove Tax Breaks for Confederate Heritage Group",
+      "abstract": "The Virginia governor rejected efforts by the state’s Democrats to reshape the Commonwealth’s relationship with its Confederate past.",
+      "url": "https://www.nytimes.com/2024/05/17/us/virginia-confederate-heritage-group-tax-youngkin.html",
+      "uri": "nyt://article/a39156e5-ecac-54e7-b214-064346804206",
+      "byline": "By Anna Venarchik",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T06:40:44-04:00",
+      "created_date": "2024-05-17T22:08:11-04:00",
+      "published_date": "2024-05-17T22:08:11-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Tax Credits, Deductions and Exemptions",
+        "Civil War (US) (1861-65)",
+        "Vetoes (US)"
+      ],
+      "org_facet": [
+        "United Daughters of the Confederacy",
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Youngkin, Glenn A"
+      ],
+      "geo_facet": [
+        "Richmond (Va)",
+        "Virginia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/04/08/multimedia/HFO-00Nat-Confederacy-Veto-mfgq/HFO-00Nat-Confederacy-Veto-mfgq-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Glenn Youngkin speaking at a rally in Virginia Beach last year.",
+          "copyright": "Kristen Zeis for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/04/08/multimedia/HFO-00Nat-Confederacy-Veto-mfgq/HFO-00Nat-Confederacy-Veto-mfgq-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Glenn Youngkin speaking at a rally in Virginia Beach last year.",
+          "copyright": "Kristen Zeis for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/04/08/multimedia/HFO-00Nat-Confederacy-Veto-mfgq/HFO-00Nat-Confederacy-Veto-mfgq-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gov. Glenn Youngkin speaking at a rally in Virginia Beach last year.",
+          "copyright": "Kristen Zeis for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Display at Alito’s Home Renews Questions of Supreme Court’s Impartiality",
+      "abstract": "News of a popular “Stop the Steal” symbol on the justice’s front lawn led jurists and politicians to express concerns about coming court decisions.",
+      "url": "https://www.nytimes.com/2024/05/17/us/justice-alito-flag-reactions.html",
+      "uri": "nyt://article/30d38d1c-8c98-56ad-b95a-b2be2587fe29",
+      "byline": "By Jodi Kantor and Abbie VanSickle",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T10:21:07-04:00",
+      "created_date": "2024-05-17T17:30:15-04:00",
+      "published_date": "2024-05-17T17:30:15-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Conservatism (US Politics)",
+        "Conflicts of Interest",
+        "Flags, Emblems and Insignia",
+        "Storming of the US Capitol (Jan, 2021)",
+        "Presidential Election of 2020",
+        "Right-Wing Extremism and Alt-Right",
+        "Ethics and Official Misconduct",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Alito, Samuel A Jr",
+        "Thomas, Clarence",
+        "Thomas, Virginia Lamp",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/us/17ALITO-REAX-COMBO/17ALITO-REAX-COMBO-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Justice Samuel A. Alito Jr. and an upside-down flag that was flown in his yard.",
+          "copyright": "Left: Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/us/17ALITO-REAX-COMBO/17ALITO-REAX-COMBO-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Justice Samuel A. Alito Jr. and an upside-down flag that was flown in his yard.",
+          "copyright": "Left: Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/17/us/17ALITO-REAX-COMBO/17ALITO-REAX-COMBO-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Justice Samuel A. Alito Jr. and an upside-down flag that was flown in his yard.",
+          "copyright": "Left: Erin Schaff/The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "A Loss at Mercedes-Benz Slows U.A.W.’s Southern Campaign",
+      "abstract": "After Mercedes workers voted against joining the United Automobile Workers, the union will have less momentum as it campaigns to organize Southern factories.",
+      "url": "https://www.nytimes.com/2024/05/18/business/uaw-mercedes-benz-alabama-election.html",
+      "uri": "nyt://article/dc94f00f-30b6-529a-96b9-5d659a76985f",
+      "byline": "By Neal E. Boudette",
+      "item_type": "Article",
+      "updated_date": "2024-05-18T05:03:55-04:00",
+      "created_date": "2024-05-18T05:03:55-04:00",
+      "published_date": "2024-05-18T05:03:55-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Automobiles",
+        "Labor and Jobs",
+        "Organized Labor",
+        "Presidential Election of 2024",
+        "Factories and Manufacturing",
+        "Wages and Salaries"
+      ],
+      "org_facet": [
+        "Mercedes-Benz",
+        "United Automobile Workers"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Fain, Shawn",
+        "Ivey, Kay",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Alabama"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18uaw-next-02-zltp/18uaw-next-02-zltp-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "After the U.A.W. scored wins at auto plants in Tennessee and North Carolina earlier this year, Mercedes-Benz workers in Alabama voted rejected the union. ",
+          "copyright": "Charity Rachelle for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18uaw-next-02-zltp/18uaw-next-02-zltp-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "After the U.A.W. scored wins at auto plants in Tennessee and North Carolina earlier this year, Mercedes-Benz workers in Alabama voted rejected the union. ",
+          "copyright": "Charity Rachelle for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/18/multimedia/18uaw-next-02-zltp/18uaw-next-02-zltp-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "After the U.A.W. scored wins at auto plants in Tennessee and North Carolina earlier this year, Mercedes-Benz workers in Alabama voted rejected the union. ",
+          "copyright": "Charity Rachelle for The New York Times"
+        }
+      ],
+      "short_url": ""
+    },
+    {
+      "section": "t-magazine",
+      "subsection": "",
+      "title": "Saintly, Seductive or Sadistic? Why We Can’t Make Up Our Minds About Nuns.",
+      "abstract": "In uncertain times, religious sisters are often invoked as vessels for collective doubt.",
+      "url": "https://www.nytimes.com/2024/05/16/t-magazine/nuns-film-immaculate-doubt-new-boy.html",
+      "uri": "nyt://article/a3d2cf63-86c7-5997-aae0-c2c7a0ce7da5",
+      "byline": "By Amanda Fortini",
+      "item_type": "Article",
+      "updated_date": "2024-05-17T09:50:26-04:00",
+      "created_date": "2024-05-16T16:50:32-04:00",
+      "published_date": "2024-05-16T16:50:32-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Nuns",
+        "Culture (Arts)",
+        "Women and Girls",
+        "Immaculate (Movie)",
+        "Doubt (Play)",
+        "The New Boy (Movie)"
+      ],
+      "org_facet": [
+        
+      ],
+      "per_facet": [
+        
+      ],
+      "geo_facet": [
+        
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2024/05/07/t-magazine/entertainment/7tmag-nuns-slide-VS7I-copy/7tmag-nuns-slide-VS7I-copy-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Sydney Sweeney, center, in the 2024 movie “Immaculate.”",
+          "copyright": "Neon, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/07/t-magazine/entertainment/7tmag-nuns-slide-VS7I-copy/7tmag-nuns-slide-VS7I-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Sydney Sweeney, center, in the 2024 movie “Immaculate.”",
+          "copyright": "Neon, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2024/05/07/t-magazine/entertainment/7tmag-nuns-slide-VS7I-copy/7tmag-nuns-slide-VS7I-copy-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Sydney Sweeney, center, in the 2024 movie “Immaculate.”",
+          "copyright": "Neon, via Associated Press"
+        }
+      ],
+      "short_url": ""
+    }
+  ]
+}

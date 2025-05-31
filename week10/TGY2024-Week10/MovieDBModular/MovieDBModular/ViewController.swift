@@ -37,7 +37,6 @@ class ViewController: UIViewController, LoadingShowable {
         
         collectionView.delegate = self
         collectionView.dataSource = self
-        //collectionView.register(UINib(nibName: "PopularMovieCell", bundle: nil), forCellWithReuseIdentifier: "PopularMovieCell")
         collectionView.register(cellType: PopularMovieCell.self)
 
     }
